@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
 html, body {
   height: 100%;
   width: 100%;
@@ -26,9 +27,10 @@ html, body {
 .nav-link {
   font-size: 1.1em;
   color: #87FF00;
-}
-.nav-link:active .navbar-light .navbar-toggler {
-  border: 1px solid #000;
+
+  &:active .navbar-light .navbar-toggler {
+    border: 1px solid #000;
+  }
 }
 
 .carousel slide {
@@ -44,16 +46,18 @@ html, body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-.carousel-caption h1 {
-  font-size: 200%;
-  text-shadow: 1px 1px 10px #000;
-  padding-bottom: 1rem;
-}
-.carousel-caption h3 {
-  font-size: 100%;
-  text-shadow: 1px 1px 1px 10px #000;
-  padding-bottom: 1rem;
+
+  h1 {
+    font-size: 200%;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 100%;
+    text-shadow: 1px 1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }
 }
 
 .btn-primary {
@@ -61,10 +65,11 @@ html, body {
   border: 1px solid #87ff00;
   color: #000;
   font-weight: bold;
-}
-.btn-primary:hover {
-  background-color: #5CAE00;
-  border: 1px solid #000;
+
+  &:hover {
+    background-color: #5CAE00;
+    border: 1px solid #000;
+  }
 }
 
 .btn2 {
@@ -86,44 +91,47 @@ html, body {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
-}
-.welcome hr {
-  border-top: 2px solid #005447;
-  width: 95%;
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
+
+  hr {
+    border-top: 2px  solid #005447;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .footer {
   background-color: #005447;
   padding-top: 1rem;
-}
-.footer p {
-  color: #87FF00;
-}
-.footer h5 {
-  color: #87FF00;
-  font-weight: bold;
-  text-align: center;
-}
-.footer hr {
-  border-top: 2px solid #87FF00;
-  width: 95%;
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
+
+  p {
+    color: #87FF00;
+  }
+
+  h5 {
+    color: #87FF00;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  hr {
+    border-top: 2px  solid #87FF00;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .beneficios {
   padding-top: 0rem;
-}
-.beneficios .card {
-  background-color: #005447;
-  color: #87FF00;
+
+  .card {
+    background-color: #005447;
+    color: #87FF00;
+  }
 }
 
 .card-title1 {
   color: white;
   font-weight: bold;
 }
-
-/*# sourceMappingURL=estilo.css.map */
