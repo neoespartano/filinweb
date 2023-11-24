@@ -12,6 +12,8 @@
     <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS LINK HOJA ESTILOS-->
+<link rel="stylesheet" href="/css/estilo.css">
 </head>
 
 <body>
@@ -71,23 +73,72 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/imagenes/carousel 1.jpg" class="d-block w-100" alt="caro 1">
+                <img src="/imagenes/header contacto.png" class="d-block w-100" alt="caro 1">
                 <div class="carousel-caption">
-                    <h1 class="display-2">Crecimiento Personal
-                        Inspirado por la Sabiduría de las Plantas</h1>
-                    <h3> Accede a tu potencial ilimitado</h3>
-                    <button type="button" class="btn btn-primary btn-lg">Empezar</button>
-                    <button type="button" class="btn btn-outline-light btn-lg">Saber mas</button>
+                    <h1 class="display-2">¿y si realmente funciona?</h3>
+                        <h3> contactanos </h3>
+                    <button type="button" class="btn btn-primary btn-lg">Whatsapp</button>
+                    <button type="button" class="btn btn-outline-light btn-lg">Mensaje</button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/imagenes/carousel 2.png" class="d-block w-100" alt="caro 2">
+                <img src="/imagenes/contact header 2.png" class="d-block w-100" alt="caro 2">
+                <div class="carousel-caption">
+                    <h1 class="display-2">¿Listo para cultivar tu bienestar y florecer en todas las áreas de tu vida?</h3>
+                        <h3> Cultivando Tu Camino hacia el Bienestar </h3>
+    
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="/imagenes/carousel 3.png" class="d-block w-100" alt="caro 3">
+                <img src="/imagenes/hcontact header 3.png" class="d-block w-100" alt="caro 3">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Hablemos sobre cómo podemos cultivar juntos el éxito de tu equipo</h3>
+            
+                </div>
             </div>
         </div>
     </div>
+
+      <!--formulario contacto-->
+      <div class="container mt-5">
+        <h2>Contacto</h2>
+        <form action="#" method="post" id="contactForm">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="apellido">Apellido</label>
+              <input type="text" class="form-control" id="apellido" name="apellido" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Mail</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label>Tipo Servicio</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="tipo" id="persona" value="persona" checked>
+              <label class="form-check-label" for="persona">
+                Persona
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="tipo" id="empresa" value="empresa">
+              <label class="form-check-label" for="empresa">
+                Empresa
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary my-3 ">Enviar</button>
+        </form>
+      </div>
     <!--footer-->
     <footer>
         <div class=" footer container-fluid padding">
